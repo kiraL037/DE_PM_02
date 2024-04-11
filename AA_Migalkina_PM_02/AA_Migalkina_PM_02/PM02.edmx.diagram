@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a63afdcda02b4d27966e2b795409c048" Name="Diagram1">
+        <EntityTypeShape EntityType="PM_02_AA_MigalkinaModel.Managers" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM_02_AA_MigalkinaModel.Requests" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM_02_AA_MigalkinaModel.Roles" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM_02_AA_MigalkinaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM_02_AA_MigalkinaModel.Users" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM_02_AA_MigalkinaModel.Workers" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PM_02_AA_MigalkinaModel.FK_Roles_Managers" ManuallyRouted="false" />
+        <AssociationConnector Association="PM_02_AA_MigalkinaModel.FK_Requests_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PM_02_AA_MigalkinaModel.FK_Requests_Workers" ManuallyRouted="false" />
+        <AssociationConnector Association="PM_02_AA_MigalkinaModel.FK_Roles_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PM_02_AA_MigalkinaModel.FK_Roles_Workers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
